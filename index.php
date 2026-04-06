@@ -1,5 +1,5 @@
 <?php
-require_once 'config.php';
+require 'config.php';
 
 $sql = "SELECT * FROM producttb";
 $result = $conn->query($sql);
